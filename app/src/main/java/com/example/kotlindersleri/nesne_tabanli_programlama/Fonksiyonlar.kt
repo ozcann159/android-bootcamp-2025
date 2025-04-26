@@ -34,4 +34,8 @@ class Fonksiyonlar {
         println("Toplama: ${sayi1 + sayi2} - İşlem yapan: $isim")
     }
 
+    fun myFunction(){
+        println("I just got executed")
+    }
+
 }

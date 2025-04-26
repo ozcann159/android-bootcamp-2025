@@ -15,4 +15,6 @@ fun main() {
 
     // Overloading
     f.topla(10,20,"Beyza")
+
+    f.myFunction()
 }
