@@ -28,6 +28,19 @@ Merhaba! Bu repoda Android Bootcamp sürecinde işlediğim dersleri, yaptığım
 
 ---
 
+
+### 🟢 Gün 3
+- ✅ Ders 5: Kalıtım (Inheritance) ve Override
+- ✅ Ders 6: Nesnelerde Tip Dönüşümü (Type Casting), Nullable Yapılar, Interface Kullanımı, Koleksiyon Türleri (Collection Types)
+
+**Notlar:**
+- `inheritance` (kalıtım) detaylı örneklerle pekiştirildi
+- `override` kullanımı ile metotların yeniden yazılması öğrenildi
+- `is`, `as`, `as?` anahtar kelimeleri ile tip dönüşümleri yapıldı
+- `null safety` özellikleri (`?`, `!!`, `?.`, `?:`) kullanıldı
+- `interface` tanımı ve implementasyonu yapıldı
+- `ArrayList`, `HashMap`, `Set` gibi koleksiyonlar tanıtıldı ve örnekler geliştirildi
+
 ### 📌 Hedefim
 Bu bootcamp sonunda:
 - Android uygulamaları geliştirebilecek seviyeye ulaşmak
