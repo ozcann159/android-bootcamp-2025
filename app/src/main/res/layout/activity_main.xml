@@ -6,6 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/anaRenk"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rubik"
+            android:text="Coffe Shop"
+            android:textColor="@color/yaziRenl1"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="174dp"
+            tools:layout_editor_absoluteY="14dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
     <com.google.android.material.chip.Chip
         android:id="@+id/chip4"
         android:layout_width="wrap_content"
@@ -15,8 +40,9 @@
         android:textColor="@color/yaziRenl1"
         app:chipBackgroundColor="@color/anaRenk"
         app:chipStrokeColor="@color/anaRenk"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="144dp" />
+        app:layout_constraintEnd_toStartOf="@+id/chip5"
+        app:layout_constraintStart_toEndOf="@+id/chip"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
@@ -27,33 +53,9 @@
         android:textColor="@color/yaziRenl1"
         app:chipBackgroundColor="@color/anaRenk"
         app:chipStrokeColor="@color/anaRenk"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="267dp" />
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@color/anaRenk"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="@font/rubik"
-        android:text="Coffe Shop"
-        android:textColor="@color/yaziRenl1"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toEndOf="@+id/chip4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView"
@@ -66,7 +68,7 @@
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -88,8 +90,9 @@
         android:textColor="@color/yaziRenl1"
         app:chipBackgroundColor="@color/anaRenk"
         app:chipStrokeColor="@color/anaRenk"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintEnd_toStartOf="@+id/chip4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textView2"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffe Latte"</string>
+    <string name="classicLatte">Klasik Latte</string>
+    <string name="vanillaLatte">Vanilyalı Latte</string>
+    <string name="caramelLatte">Karamelli Latte</string>
+    <string name="mochaLatte">Mocha Latte</string>
+    <string name="teslimatSure">15 dakika</string>
+    <string name="teslimatBaslik">Teslimat</string>
+    <string name="coffeAciklama">Kahve severler, mükemmel içeceği yudumlamaya hazır olun!</string>
+    <string name="fiyatYazi">₺ 9.98</string>
+    <string name="buttonYazi">SEPETE EKLE</string>
+</resources>
