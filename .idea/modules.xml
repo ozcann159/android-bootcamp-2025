@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pupilicabootcamp.iml" filepath="$PROJECT_DIR$/.idea/pupilicabootcamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinDersleri.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinDersleri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinDersleri.app.unitTest.iml" />
     </modules>
   </component>
 </project>
