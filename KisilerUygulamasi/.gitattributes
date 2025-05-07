@@ -1,0 +1,25 @@
+# Tüm metin dosyalarında otomatik satır sonu dönüşümü
+* text=auto
+
+# Dart dosyalarında Unix tarzı (LF) satır sonu kullan
+*.dart text eol=lf
+
+# Kotlin ve Java kaynak kodlarında LF kullan
+*.kt text eol=lf
+*.java text eol=lf
+
+# XML, JSON, YAML gibi yapılandırma dosyalarında LF
+*.xml text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Shell scriptlerde LF
+*.sh text eol=lf
+
+# Windows'a özgü dosyalarda CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# local.properties dosyasında platforma özgü satır sonu olsun (dokunma)
+local.properties -text
