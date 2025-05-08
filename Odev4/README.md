@@ -7,4 +7,4 @@ Bu proje, Android Bootcamp'in 4. ödevi olan mobil uygulama geliştirme sürecin
 - Navigation Component
 - Fragment yapısı
 
-![Ödev](assets/odev4.png)
+![Ödev](images/odev4.png)
