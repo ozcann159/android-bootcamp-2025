@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDo Uygulaması</string>
+    <string name="add_new_todo">Yeni Yapılacak Ekle</string>
+    <string name="delete_todo">Yapılacağı Sil</string>
+    <string name="todo_name">Yapılacak Adı</string>
+    <string name="save">Kaydet</string>
+    <string name="update">Güncelle</string>
+    <string name="search_hint">Ara...</string>
+    <string name="empty_name_error">Yapılacak adı boş olamaz!</string>
+    <string name="todo_added">%s eklendi</string>
+    <string name="todo_updated">%s güncellendi</string>
+    <string name="todo_deleted">%s silindi</string>
+    <string name="undo">Geri Al</string>
+</resources>

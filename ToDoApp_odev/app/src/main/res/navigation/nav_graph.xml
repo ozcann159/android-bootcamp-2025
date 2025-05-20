@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.todooapp_odev.ui.anasayfa.AnasayfaFragment"
+        android:label="Yapılacaklar"
+        tools:layout="@layout/fragment_anasayfa">
+        <action
+            android:id="@+id/action_anasayfaFragment_to_kayitFragment"
+            app:destination="@id/kayitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitFragment"
+        android:name="com.example.todooapp_odev.ui.kayitsayfa.KayitFragment"
+        android:label="Yapılacak Kayıt"
+        tools:layout="@layout/fragment_kayit">
+        <argument
+            android:name="toDoItem"
+            app:argType="com.example.todooapp_odev.data.ToDo"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
